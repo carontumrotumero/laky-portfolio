@@ -89,6 +89,13 @@ img{max-width:100%;display:block;}
 }
 .nav-toggle span{width:24px;height:2px;background:var(--text);border-radius:2px;transition:.3s;}
 
+.nav-github{
+  color:var(--text-dim);display:flex;align-items:center;
+  transition:color .25s,transform .25s;
+}
+.nav-github:hover{color:var(--violet-light);transform:translateY(-2px);}
+.nav-github svg{width:22px;height:22px;}
+
 /* HERO */
 .hero{
   position:relative;z-index:2;
@@ -302,7 +309,13 @@ img{max-width:100%;display:block;}
   padding:30px 24px;text-align:left;transition:transform .3s,border-color .3s;
 }
 .skill-card:hover{transform:translateY(-8px);border-color:var(--violet);}
-.skill-icon{font-size:1.8rem;margin-bottom:16px;}
+.skill-icon{
+  width:46px;height:46px;margin-bottom:18px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,rgba(139,92,246,0.18),rgba(217,70,239,0.12));
+  border:1px solid var(--panel-border);color:var(--violet-light);
+}
+.skill-icon svg{width:22px;height:22px;}
 .skill-card h3{font-family:var(--font-head);font-size:1.05rem;margin-bottom:8px;}
 .skill-card p{color:var(--text-dim);font-size:.88rem;line-height:1.6;}
 
@@ -317,9 +330,15 @@ img{max-width:100%;display:block;}
 .contact-item{
   flex:1;min-width:220px;background:rgba(255,255,255,0.03);
   border:1px solid var(--panel-border);border-radius:14px;padding:22px;
-  display:flex;flex-direction:column;gap:6px;transition:transform .3s,border-color .3s;
+  display:flex;flex-direction:column;align-items:center;gap:6px;transition:transform .3s,border-color .3s;
 }
 a.contact-item:hover{transform:translateY(-4px);border-color:var(--violet);}
+.contact-icon{
+  width:40px;height:40px;border-radius:50%;margin-bottom:6px;
+  display:flex;align-items:center;justify-content:center;color:var(--violet-light);
+  background:linear-gradient(135deg,rgba(139,92,246,0.18),rgba(217,70,239,0.12));
+}
+.contact-icon svg{width:20px;height:20px;}
 .contact-label{font-size:.78rem;text-transform:uppercase;letter-spacing:1px;color:var(--violet-light);font-weight:600;}
 .contact-value{font-weight:600;font-size:1.02rem;}
 
