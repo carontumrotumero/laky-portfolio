@@ -236,14 +236,14 @@ img{max-width:100%;display:block;}
   padding:12px;background-size:cover;background-position:center;
   border-bottom:2px solid var(--border);
 }
-.banner-jugarmc{background-image:linear-gradient(0deg,rgba(10,8,16,0.8),rgba(10,8,16,0.1)),url('img/banner-jugarmc.png');}
+.banner-hypermc{background-image:linear-gradient(0deg,rgba(10,8,16,0.8),rgba(10,8,16,0.1)),url('img/banner-hypermc.png');}
 .banner-tecnocraft{background-image:linear-gradient(0deg,rgba(10,8,16,0.8),rgba(10,8,16,0.1)),url('img/banner-tecnocraft.png');}
-.banner-hypermc{
-  background:repeating-linear-gradient(135deg,#3a1d6e,#3a1d6e 14px,#2b1554 14px,#2b1554 28px);
+.banner-jugarmc{
+  background:repeating-linear-gradient(135deg,#352a4a,#352a4a 14px,#271f38 14px,#271f38 28px);
   position:relative;
 }
-.banner-hypermc::before{
-  content:'HyperMC';position:absolute;left:14px;bottom:12px;
+.banner-jugarmc::before{
+  content:'JugarMC';position:absolute;left:14px;bottom:12px;
   font-family:var(--font-head);font-weight:700;font-size:1.3rem;color:#fff;
   text-shadow:0 2px 8px rgba(0,0,0,.5);
 }
