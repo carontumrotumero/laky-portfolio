@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAKY — Junior Developer</title>
+<meta name="description" content="Portafolio de LAKY, desarrollador Junior especializado en plugins de Minecraft, configuración de servidores, desarrollo web y bots de Discord. Fundador de HyperMC y AEVORYNTH Studio.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🟣</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+<div class="glow glow-3"></div>
+
+<div class="cursor-dot" id="cursorDot"></div>
+
+<nav class="navbar" id="navbar">
+  <a href="#home" class="nav-logo">LAKY<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#home">Inicio</a></li>
+    <li><a href="#historia">Historia</a></li>
+    <li><a href="#experiencia">Experiencia</a></li>
+    <li><a href="#estudio">AEVORYNTH</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow reveal">Portafolio de desarrollo</p>
+      <h1 class="hero-title">
+        <span class="reveal">Hola, soy</span>
+        <span class="hero-name reveal">LAKY</span>
+      </h1>
+      <p class="hero-subtitle reveal">Junior Developer · Minecraft Plugins · Server Setup · Web & Discord Bots</p>
+      <p class="hero-desc reveal">Casi 3 años construyendo comunidades, servidores y herramientas a medida. Fundador de <strong>HyperMC</strong> y dueño de <strong>AEVORYNTH Studio</strong>.</p>
+      <div class="hero-actions reveal">
+        <a href="#contacto" class="btn btn-primary">Contactar</a>
+        <a href="#experiencia" class="btn btn-ghost">Ver experiencia</a>
+      </div>
+    </div>
+
+    <div class="hero-card reveal">
+      <div class="profile-ring">
+        <img src="assets/img/profile.webp" alt="Foto de perfil de LAKY" class="profile-img">
+        <span class="status-dot" title="Online"></span>
+      </div>
+      <div class="profile-info">
+        <div class="profile-row">
+          <span class="label">Nick</span>
+          <span class="value">LAKY</span>
+        </div>
+        <div class="profile-row">
+          <span class="label">Rol</span>
+          <span class="value">Junior Developer</span>
+        </div>
+        <div class="profile-row">
+          <span class="label">Estado</span>
+          <span class="value status-live"><i></i>Online</span>
+        </div>
+        <div class="profile-row">
+          <span class="label">Discord</span>
+          <span class="value">laky_vc</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator"><span></span></div>
+</header>
+
+<!-- HISTORIA -->
+<section class="section" id="historia">
+  <div class="section-head">
+    <p class="section-tag reveal">· Mi historia ·</p>
+    <h2 class="section-title reveal">De aprender solo a fundar mi propio servidor</h2>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Hace ~2.5 años</span>
+        <h3>Los inicios</h3>
+        <p>Comencé aprendiendo poco a poco sobre desarrollo y configuración de servidores de Minecraft. Sin experiencia previa, solo curiosidad y ganas de entender cómo funcionaba todo por dentro.</p>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Crecimiento</span>
+        <h3>Experiencia en comunidades</h3>
+        <p>Con el tiempo fui adquiriendo experiencia trabajando en diferentes comunidades y asumiendo responsabilidades dentro de ellas: moderación, configuración y coordinación. Esto me permitió desarrollar mis habilidades en plugins, bots de Discord y desarrollo web.</p>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-year">Hoy</span>
+        <h3>Proyectos propios</h3>
+        <p>Decidí comenzar mis propios proyectos hasta fundar <strong>HyperMC</strong> y crear <strong>AEVORYNTH Studio</strong>. Mi objetivo es seguir aprendiendo, mejorar mis habilidades y convertir mis ideas en proyectos reales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCIA -->
+<section class="section section-alt" id="experiencia">
+  <div class="section-head">
+    <p class="section-tag reveal">· Trayectoria ·</p>
+    <h2 class="section-title reveal">Servidores en los que he trabajado</h2>
+  </div>
+
+  <div class="cards-grid">
+
+    <article class="project-card reveal">
+      <div class="banner banner-jugarmc">
+        <span class="banner-badge retired">Retirado</span>
+      </div>
+      <div class="project-body">
+        <h3>JugarMC</h3>
+        <p class="project-role">Moderador</p>
+        <p class="project-desc">Trabajé como moderador manteniendo el orden y la buena experiencia de la comunidad. Actualmente retirado del cargo.</p>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="banner banner-tecnocraft">
+        <span class="banner-badge active">T-Mod</span>
+      </div>
+      <div class="project-body">
+        <h3>Tecnocraft Network</h3>
+        <p class="project-role">T-Mod · Configurador · Coordinador Resing</p>
+        <p class="project-desc">Ingresé oficialmente como T-Mod, además de realizar trabajos de configuración de servidor y coordinación del equipo de resing.</p>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="banner banner-hypermc">
+        <span class="banner-badge active">Fundador · Activo</span>
+      </div>
+      <div class="project-body">
+        <h3>HyperMC</h3>
+        <p class="project-role">Fundador</p>
+        <p class="project-desc">Mi propio proyecto. Sigo activo como fundador mientras el servidor continúa en desarrollo.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- AEVORYNTH STUDIO -->
+<section class="section" id="estudio">
+  <div class="studio-panel reveal">
+    <div class="studio-text">
+      <p class="section-tag">· Mi estudio ·</p>
+      <h2 class="section-title">AEVORYNTH Studio</h2>
+      <p class="studio-desc">Estudio dedicado a crear <strong>servidores de Minecraft</strong>, <strong>plugins personalizados</strong>, <strong>páginas web</strong> y <strong>bots de Discord</strong> a precios accesibles.</p>
+      <ul class="studio-list">
+        <li>Servidores de Minecraft a medida</li>
+        <li>Plugins personalizados</li>
+        <li>Desarrollo web</li>
+        <li>Bots de Discord</li>
+      </ul>
+      <a href="#contacto" class="btn btn-primary">Solicitar presupuesto</a>
+    </div>
+    <div class="studio-visual">
+      <div class="orbit-ring r1"></div>
+      <div class="orbit-ring r2"></div>
+      <div class="orbit-ring r3"></div>
+      <span class="studio-core">AEVORYNTH</span>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section section-alt" id="skills">
+  <div class="section-head">
+    <p class="section-tag reveal">· Habilidades ·</p>
+    <h2 class="section-title reveal">Stack & especialidades</h2>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-icon">⛏</div>
+      <h3>Plugins de Minecraft</h3>
+      <p>Desarrollo de plugins personalizados para servidores Java/Bedrock.</p>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">⚙</div>
+      <h3>Configuración de servidores</h3>
+      <p>Setup, optimización y mantenimiento de servidores de Minecraft.</p>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🌐</div>
+      <h3>Desarrollo web</h3>
+      <p>Páginas web modernas, responsivas y con buen rendimiento.</p>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🤖</div>
+      <h3>Bots de Discord</h3>
+      <p>Bots a medida para moderación, utilidades y automatización.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section" id="contacto">
+  <div class="contact-panel reveal">
+    <h2 class="section-title">¿Hablamos de tu proyecto?</h2>
+    <p class="contact-desc">Disponible para proyectos de Minecraft, web y Discord a través de AEVORYNTH Studio.</p>
+    <div class="contact-grid">
+      <a href="mailto:syre82539@gmail.com" class="contact-item">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">syre82539@gmail.com</span>
+      </a>
+      <div class="contact-item">
+        <span class="contact-label">Discord</span>
+        <span class="contact-value">LAKY (laky_vc)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> LAKY · AEVORYNTH Studio</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
